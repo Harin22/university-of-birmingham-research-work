@@ -1,11 +1,5 @@
 # Taylor Bubble Detection and Tracking System
 
-[![License: MIT](https://img.shields.://opensource.org/licenses/MIT.shields.io/badge/python-vtps://img.shields.io/badge/opencv-4.5+-greenimg.shields.io/badge/YOLOv8-Ultralytics-purple
-
-> **Real-time bubble detection and radius measurement system for Taylor bubble flow analysis using Mask R-CNN and OC-SORT tracking.**
-
-![Project Banner](assets/taylor_bubble_banner.jpg Project
-
 This project implements a comprehensive **Taylor bubble detection and tracking system** for mechanical engineering fluid dynamics research. The system combines **Mask R-CNN** for precise bubble segmentation with **OC-SORT** tracking algorithm to analyze bubble characteristics across different flow velocities in continuous flow reactors.
 
 ### Key Features
