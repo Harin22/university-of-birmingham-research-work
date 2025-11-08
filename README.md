@@ -23,11 +23,10 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
                    annotations)     (Unique Track IDs)                                                               
 ```
 
-![WhatsApp Image 2025-11-08 at 14 13 27_704902f1](https://github.com/user-attachments/assets/07703e9e-f51e-4351-a451-9550f5ee371e)
-Taylor bubble flow analysis setup with backlight and precision flow channel for real time imaging
-
-
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/07703e9e-f51e-4351-a451-9550f5ee371e" width="600">
+  <p><em>Taylor bubble flow analysis setup with backlight and precision flow channel for real-time imaging.</em></p>
+</div>
 
 
 ## Getting Started
