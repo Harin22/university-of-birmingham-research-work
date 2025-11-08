@@ -23,12 +23,19 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
                    annotations)     (Unique Track IDs)                                                               
 ```
 
-## 🚀 Getting Started
+![WhatsApp Image 2025-11-08 at 14 13 27_704902f1](https://github.com/user-attachments/assets/07703e9e-f51e-4351-a451-9550f5ee371e)
+Taylor bubble flow analysis setup with backlight and precision flow channel for real time imaging
+
+
+
+
+
+## Getting Started
 
 ### Prerequisites
 
 - Python 3.8+
-- CUDA-compatible GPU (recommended)
+- T4 GPU 
 - Google Colab account (optional)
 
 ## Results
@@ -46,7 +53,7 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
 | 2.0 ml/min    | 19.3 pixels      | 2.8 pixels    | 2,334        |
 
 
-## 🛣️ Roadmap
+## Progress update
 
 - [x] Custom Mask R-CNN training on bubble dataset
 - [x] OC-SORT integration for multi-object tracking  
@@ -56,7 +63,7 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
 - [ ] **Phase 3**: Integration with industrial flow controllers for live quality monitoring
 
 
-## 📝 License
+## License
 
 Distributed Under the 'MIT License'. See `LICENSE` for more information.
 
