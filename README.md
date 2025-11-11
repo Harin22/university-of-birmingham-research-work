@@ -39,19 +39,9 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
 
 ## Results
 
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/e5075a65-9e22-4544-8729-e66c15338655" 
-       alt="Slug length measurement" 
-       width="48%" />
-
-  <img src="https://github.com/user-attachments/assets/296677a5-cc93-492a-b92c-a534a3de5954" 
-       alt="Taylor bubble radius and width analysis" 
-       width="48%" />
-
-  <p><em>Figure — Right: Radius and width estimation of individual Taylor bubbles for geometric analysis.Left: Edge-based slug length measurement between Taylor bubbles.</em></p>
-
-</div>
+| ![Slug length measurement](https://github.com/user-attachments/assets/e5075a65-9e22-4544-8729-e66c15338655) | ![Taylor bubble radius and width analysis](https://github.com/user-attachments/assets/296677a5-cc93-492a-b92c-a534a3de5954) |
+|:--:|:--:|
+| **Left:** Edge-based slug length measurement between Taylor bubbles. <br> **Right:** Radius and width estimation of individual Taylor bubbles for geometric analysis. |
 
 
 ### Model Performance
