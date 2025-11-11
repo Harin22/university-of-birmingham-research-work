@@ -1,6 +1,6 @@
 # Taylor Bubble Detection and Tracking System
 
-This project implements a **Taylor bubble detection and tracking system** for mechanical engineering fluid dynamics research. The system combines **Mask R-CNN** for precise bubble segmentation with **OC-SORT** tracking algorithm to analyze bubble characteristics across different flow velocities in continuous flow reactors and to measure slug length using a edge based method, the final output will be Gradio web app for quick analysis.
+This project implements a **Taylor bubble detection and tracking system** for mechanical engineering fluid dynamics research. The system combines **Mask R-CNN** for precise bubble segmentation with **OC-SORT** tracking algorithm to analyze bubble in continuous flow reactors and to measure slug length using a edge based method, the final output will be Gradio web app for quick analysis.
 
 ### Core Capabilities
 -  **Custom Mask R-CNN** trained on annotated bubble images  
@@ -11,7 +11,7 @@ This project implements a **Taylor bubble detection and tracking system** for me
 -  **Google Colab** for easy deployment
 
 ### Research Context
-This work was a continouation part of my dissertation project at **University of Birmingham MSc Robotics** research collaboration on Taylor bubble dynamics in microfluidic systems for advanced manufacturing quality control system.
+This work was a part of **University of Birmingham** research collaboration on Taylor bubble dynamics in microfluidic systems.
 
 ## System Architecture
 
@@ -39,17 +39,32 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
 
 ## Results
 
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/e5075a65-9e22-4544-8729-e66c15338655" 
+       alt="Slug length measurement" 
+       width="48%" />
+
+  <img src="https://github.com/user-attachments/assets/296677a5-cc93-492a-b92c-a534a3de5954" 
+       alt="Taylor bubble radius and width analysis" 
+       width="48%" />
+
+  <p><em>Figure — Right: Radius and width estimation of individual Taylor bubbles for geometric analysis.Left: Edge-based slug length measurement between Taylor bubbles.</em></p>
+
+</div>
+
+
 ### Model Performance
 - **Mask R-CNN mAP@0.5**: 88.3% on bubble segmentation
 - **Processing Speed**: ~15 FPS on GPU (RTX 3080)
 - **Tracking Accuracy**: 95%+ bubble ID consistency
 
 ### Research Findings
-| Flow Velocity | Avg Bubble Radius | Std Deviation | Bubble Count |
-|---------------|-------------------|---------------|--------------|
-| 0.5 ml/min    | 24.5 pixels      | 3.2 pixels    | 1,247        |
-| 1.0 ml/min    | 22.8 pixels      | 4.1 pixels    | 1,856        |
-| 2.0 ml/min    | 19.3 pixels      | 2.8 pixels    | 2,334        |
+| Avg Bubble Radius | Std Deviation  | Bubble Count  |
+|-------------------|----------------|---------------|
+| 24.5 pixels       |  3.2 pixels    |  1,247        |
+| 22.8 pixels       |  4.1 pixels    |  1,856        |
+| 19.3 pixels       |  2.8 pixels    |  2,334        |
 
 
 ## Progress update
@@ -59,20 +74,13 @@ Taylor Flow    Bubble Segmentation   Multi-Object         Contour Analysis   Res
 - [x] Real-time radius measurement
 - [x] Edge-based slug length and radius measurement implemented
 - [ ] **Phase 2**: Gradio web app deployed for interactive analysis
-- [ ] **Phase 3**: Integration with industrial flow controllers for live quality monitoring
+- [ ] **Phase 3**: Integration with lab flow controllers for live quality monitoring
 
 
 ## License
 
 Distributed Under the 'MIT License'. See `LICENSE` for more information.
 
-## Acknowledgments
-
-- **University of Birmingham** - MSc Robotics Program + Dissertation project
-- **Research Collaborators**: Faysal Ahmad, Fahad Rahman (PhD Mechanical Engineering)
-- **Supervisor**: Dr. Jason Stafford
-- **Infrastructure**: Google Colab Pro for GPU training resources
-
 
 ***
-*Developed with ❤️ for leveraging AI in advancing fluid dynamics research*
+*Developed for leveraging AI in advancing fluid dynamics research*
